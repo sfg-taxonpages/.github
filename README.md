@@ -10,14 +10,17 @@ First time setup, after the last command you should see `nothing to commit, work
 git clone git@github.com:sfg-taxonpages/aphid.git
 cd aphid
 git checkout main
+npm install
 git checkout setup
+git checkout main .
+git reset
 git checkout .
 
 git status
 ```
 
-To run the server (note it's always a good idea to `git pull` before you start any editing, and `npm install` is not typically necessary every time, but it won't hurt).
+To run the server (assuming the above):
 ```
-npm install
 npm run dev
 ```
+
