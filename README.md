@@ -26,4 +26,4 @@ npm run dev
 ## Previewing On GitHub Pages
 Follow this URL pattern to see a preview of your pages: https://sfg-taxonpages.github.io/aphid
 - replace `aphid` with your project repository name (e. g. `plecoptera`, `psocodea`, etc)
-- put the URL in your brower and click to load the pages
+- put the URL in your browser and click to load the pages
